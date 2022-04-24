@@ -5,7 +5,11 @@ metadata:
   labels:
     app: ecsdemo-nodejs
 spec:
+<<<<<<< HEAD
   replicas: 2
+=======
+  replicas: 3
+>>>>>>> 1667c9d88b8c5824ab72f97e0a93a5949776c6b4
   selector:
     matchLabels:
       app: ecsdemo-nodejs
@@ -46,7 +50,7 @@ metadata:
   labels:
     app: ecsdemo-crystal
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: ecsdemo-crystal
